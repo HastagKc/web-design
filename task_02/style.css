@@ -31,11 +31,11 @@ body,html{
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
+    color: #fff;
 }
 
 
 h2 {
-    color: #fff;
     font-size: 70px;
     font-weight: 600;
     margin-bottom: 10px;
@@ -45,8 +45,8 @@ button{
     padding: 5px 10px;
     width: 180px;
     font-size: 18px;
-    color: #fff;
     background-color: transparent;
+    color: #fff;
     border: 1px solid #fff;
 }
 
