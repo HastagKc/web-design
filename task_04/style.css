@@ -2,6 +2,7 @@
   padding: 0%;
   margin: 0%;
   box-sizing: border-box;
+  font-family: "Gilory";
 }
 
 html,
@@ -20,8 +21,9 @@ body {
 .left {
   width: 45%;
   height: 100%;
-  background-color: #d9a59d;
+  background-color: #c7958d;
   position: relative;
+  overflow: hidden;
 }
 #nav {
   width: 100%;
@@ -36,13 +38,14 @@ body {
   text-decoration: none;
   font-size: 12px;
   color: #000;
+  color: #fff;
 }
 
 #nav h3 {
   font-weight: 600;
   font-size: 14px;
   letter-spacing: 5px;
-  font-family: "Montserrat";
+  color: #fff;
 }
 .image-container {
   width: 45%;
@@ -57,16 +60,57 @@ body {
   transform: translate(-50%, -50%);
 }
 .image-container #text-container {
-  background-color: red;
   position: absolute;
   bottom: -30%;
   width: 100%;
   height: 80px;
+  display: flex;
+  font-size: 12px;
 }
+#heading {
+  width: 30%;
+  color: #fff;
+}
+#heading h5 {
+  margin-bottom: 20px;
+}
+#para {
+  width: 70%;
+  color: #fff;
+  line-height: 20px;
+}
+#scroll {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  position: absolute;
+  bottom: -10px;
+  transform-origin: 0% 50%;
+  transform: rotate(-90deg);
+  left: 10%;
+}
+
+#scroll #line {
+  width: 150px;
+  height: 1px;
+  background-color: #fff;
+}
+
+#scroll h4 {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+  font-size: 10px;
+  letter-spacing: 5px;
+}
+
 .center {
   width: 45%;
   height: 100%;
-  background-color: blue;
+  /* background-color: blue; */
+  background-image: url("https://images.unsplash.com/photo-1685464144402-0a3617eed624?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;
 }
 
 .right {
